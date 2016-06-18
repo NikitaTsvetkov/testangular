@@ -14,7 +14,7 @@ import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/route
     <a [routerLink]="['Dashboard']">Dashboard</a></nav>
     <router-outlet></router-outlet>
   `,
-  styleUrls: ['app/app.component.css']
+  styleUrls: ['app/app.component.css'],
   directives: [ROUTER_DIRECTIVES],
   providers: [
     ROUTER_PROVIDERS,
